@@ -1,0 +1,367 @@
+.mainHeader .siteInfo{
+    display: inline-block;
+    margin: 10px 0 10px 5%;
+    vertical-align: middle;
+    font-size: 0;
+}
+.mainHeader h1{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.mainHeader h1 span{
+    font-family:serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.mainHeader .socialMediaIcons li{
+    display: inline-block;
+    margin-right: 6px;
+}
+.mainHeader .socialMediaIcons li:last-child{
+    margin: none;
+}
+.mainHeader .mobileMenuIcon{
+    margin: 10px 5% 10px 0;
+    width: 40px;
+    height: 40px;
+    border: solid black 1px;
+    border-radius: 4px;
+    display: inline-block;
+    float: right;
+    margin-right: 5%;
+    position: relative;
+    vertical-align: middle;
+    line-height: 40;
+}
+.mainHeader .mobileMenuIcon div{
+    width: 55%;
+    height: 3px;
+    margin: 4px auto 0 auto;
+    background-color: black;
+    position:relative;
+    top: 8px;
+    
+}
+.mainHeader .mobileMenuIcon div:first-child{
+    margin: none;
+}
+.mainHeader .mobileMenu{
+    width: 90%;
+    padding: 5px 5%;
+    display: none;
+}
+.mainHeader .mobileMenu ul{
+    border: solid black 1px
+}
+.mainHeader .mobileMenu li{
+    border-bottom: solid black 1px;
+    text-align: center;
+}
+.mainHeader .mobileMenu li:last-child{
+    border-bottom: none;
+}
+.mainHeader .mobileMenu li a{
+    display: block;
+    padding: 6px;  
+}
+.mainHeader .mobileMenu li a:hover{
+    background-color: #FCD307;
+}
+.mainHeader .menu{
+    display: none;
+}
+
+
+.slider{
+    width: 90%;
+    padding: 25px 5%;
+    background-image: url(../img/office.jpg);
+    background-size: cover;
+    position: relative;
+}
+.slider .backgroundFilter{
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top:0;
+    z-index: 1;
+}
+.slider h1{
+    color: white;
+    font-size: 30px;
+    z-index: 2;
+    position: relative;
+}
+.slider h1 span{
+    font-weight:bolder;
+    color: #FCD307;
+}
+.slider p{
+    color: white;
+    font-size: 18px;
+    z-index: 2;
+    position: relative;
+    margin: 15px 0 5px 0;
+}
+.slider ul{
+    z-index: 2;
+    position: relative;
+}
+.slider li{
+    border: solid white 2px;
+    width: 130px;
+    margin-top: 10px;
+    
+}
+.slider li a{
+    color: white;
+    padding: 8px;
+    display: block;
+    text-align: center;
+}
+.slider li a:hover{
+    background-color: black;
+    color: #FCD307;
+}
+.slider li:hover{
+    border: solid #FCD307 2px;
+}
+
+
+.positions{
+    width: 90%;
+    padding: 10px 5%;
+    text-align: center;
+    background-color: #FCD307;
+    font-size: 0;
+}
+.positions img{
+    background-color: white;
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+}
+.positions .imgHolder{
+    padding: 5px;
+    display: inline-block;
+    background: white;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.positions p{
+    font-family: sans-serif;
+    line-height: 19px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+.positions .designer, .positions .copywriter, .positions .director, .positions .manager{
+    margin: 30px;
+}
+
+
+.aboutUs{
+    width: 90%;
+    padding: 5%;
+    font-size: 0;
+}
+.aboutUs h1{
+    font-weight:900;
+    font-size: 25px;
+}
+.aboutUs h2{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+.aboutUs .person1 img, .aboutUs .person2 img, .aboutUs .person3 img, .aboutUs .person4 img{
+    width: 100%;
+    margin-top: 5px;
+}
+.aboutUs .person1 h3, .aboutUs .person2 h3, .aboutUs .person3 h3, .aboutUs .person4 h3{
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-top: 5px;
+}
+.aboutUs .person1 p, .aboutUs .person2 p, .aboutUs .person3 p, .aboutUs .person4 p{
+    text-align: center;
+    color: gray;
+    letter-spacing: 3px;
+    font-style: italic;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.aboutUs .paragraph{
+    font-size: 18px;
+    line-height: 20px;
+    margin: 40px 0 20px 0;
+}
+
+
+.contactUs{
+    background-color: #212121;
+    width: 90%;
+    padding: 5px 5%;
+    font-size: 0;
+}
+.contactUs h1{
+    color:white;
+    font-size: 26px;
+}
+.contactUs h2{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    margin: 4px 0 15px 0;
+}
+.contactUs .mail{
+    position: relative;
+    vertical-align: middle;
+    margin-bottom: 8px;
+}
+.contactUs .mail img{
+    display: inline-block;
+    margin-right: 3px;
+}
+.contactUs .mobileNumber img{
+    display: inline-block;
+    margin-right: 13px;
+}
+.contactUs .mail p, .contactUs .mobileNumber p{
+    color: white;
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+}
+
+.contactUs .mobileNumber{
+    margin-bottom: 30px;
+}
+.contactUs .text{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+/* InputHolder */
+.inputHolder {
+    border: solid 1px black;
+    position: relative;
+    margin-bottom: 12px;
+}
+.inputHolder label {
+    position: absolute;
+    left: 2.5%;
+    top: 6px;
+    font-style: italic;
+    color: black;
+    font-size: 16px;
+
+}
+.inputHolder input, .inputHolder textarea {
+    border: none;
+    width: 95%;
+    padding: 6px 2.5%;
+    font-style: italic;
+    resize: none;
+    color: black;
+    outline: none;
+}
+.contactUs .button{
+    text-align: right;
+}
+.contactUs .button button{
+    background-color: #FCD307;
+    padding: 8px;
+    font-weight:900;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.contactUs .button button:hover{
+    color:#212121;
+}
+
+
+
+
+
+@media screen and (min-width: 560px){
+    .positions .designer, .positions .copywriter, .positions .director, .positions .manager{
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+    }
+    
+    .aboutUs .person1, .aboutUs .person2, .aboutUs .person3, .aboutUs .person4{
+        display: inline-block;
+        width: 45%;
+        margin: 5px 2.5%
+    }
+}
+
+
+
+
+@media screen and (min-width: 768px){
+    .mainHeader .mobileMenu, .mainHeader .mobileMenuIcon{
+        display: none;
+    }
+    .mainHeader .menu{
+        display: inline-block;
+        position: relative;
+        float: right;
+        margin-top: 21px;
+    }
+    .mainHeader .menu li{
+        display: inline-block;
+        margin: 0 15px;
+        border: 1px solid black;
+    }
+    .mainHeader .menu li a{
+        display: block;
+        padding: 6px;
+    }
+    .mainHeader .menu li a:hover{
+        background-color: #FCD307;
+    }
+}
+
+
+
+@media screen and (min-width: 1024px){
+    .slider{
+        height: 600px;
+    }
+    .slider h1{
+        font-size: 50px;
+        margin-top: 30px;
+    }
+    .slider p{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .positions .designer, .positions .copywriter, .positions .director, .positions .manager{
+        width: inherit;
+    }
+    .aboutUs .person1, .aboutUs .person2, .aboutUs .person3, .aboutUs .person4{
+        width: inherit;
+    }
+    .aboutUs .paragraph{
+        width: 45%;
+        display: inline-block;
+        margin: 10px 2.5% 0 2.5%;
+        vertical-align: top;
+    }
+    
+    .contactUs{
+        width: 60%;
+        padding: 15px 20%;
+    }
+
+}
