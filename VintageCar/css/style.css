@@ -1,0 +1,502 @@
+@font-face{
+    font-family:Raleway-Regular;
+    src:url(../fonts/Raleway-Regular.ttf)
+}
+
+@font-face{
+    font-family:Raleway-Bold;
+    src:url(../fonts/Raleway-Bold.ttf)
+}
+
+@font-face{
+    font-family:Raleway-Light;
+    src:url(../fonts/Raleway-Light.ttf)
+}
+
+
+.mainHeader{
+    background-color: #2F2E2E;
+    position: relative;
+    width: 90%;
+    padding: 15px 5%;
+}
+.mainHeader .socialMediaIcons{
+    display: inline-block;
+}
+.mainHeader .socialMediaIcons li{
+    display: inline-block;
+    margin-left: 3px;
+}
+.mainHeader .socialMediaIcons li:first-child{
+    margin: none;
+}
+.mainHeader .socialMediaIcons img{
+    height: 30px;
+    width: 30px;
+}
+.mainHeader .mobileMenuIcon{
+    width: 30px;
+    padding: 4px;
+    display: inline-block;
+    float: right;
+    vertical-align: middle;
+}
+.mainHeader .mobileMenuIcon div{
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    height:4px;
+    margin-bottom: 4px;
+}
+
+
+
+.mobileMenu{
+    background-color: #2F2E2E;
+    position: relative;
+    width: 90%;
+    padding: 0 5%;
+    display: none;
+}
+.mobileMenu li {
+    font-family: Raleway-Regular;
+    font-size: 16px;
+    color: white;
+    padding: 4px 0;
+    border-bottom: solid 1px white;
+    text-align: center;
+}
+.mobileMenu a{
+    display: block;
+}
+.mobileMenu li:hover{
+    color: #2F2E2E;
+    background-color: white;
+}
+.menu{
+    display:none;
+}
+
+
+.slider .socialMediaIcons{
+    display: none;
+}
+.slider .backgroundFilter{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    z-index: 1;
+    top:0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+.slider{
+    background-image: url(../img/retro-car.jpg);
+    background-size: cover;
+    position: relative;
+    padding: 20px 5%;
+    text-align: center;
+    z-index: 1
+}
+.slider img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border: solid 2px white;
+    border-radius: 50px;
+    z-index: 2;
+    position: relative;
+}
+.slider h1{
+    font-family: Raleway-Bold;
+    font-size: 36px;
+    color: white;
+    margin-top: 5px;
+    z-index: 2;
+    position: relative;
+}
+.slider h2{
+    font-family: Raleway-Regular;
+    font-size: 16px;
+    color: white;
+    margin-top: 5px;
+    z-index: 2;
+    position: relative;
+}
+
+
+.services{
+    background-image: url(../img/gravel-background.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.services .backgroundFilter{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+}
+.services h1{
+    font-family: Raleway-Regular;
+    font-size: 20px;
+    color: white;
+    z-index:3;
+    position: relative;
+    padding-top: 30px;
+}
+.services .line{
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    position: relative;
+    z-index: 3;
+    margin: 5px auto;
+}
+.services img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    z-index: 3;
+    margin: 25px 0;
+    border: white 2px solid;
+    border-radius: 50%; 
+    padding: 5px
+}
+.services h2{
+    font-family: Raleway-Regular;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    z-index: 3;
+    margin-bottom: 8px;
+}
+.services p{
+    font-family: Raleway-Regular;
+    font-size: 16px;
+    color: white;
+    width: 230px;
+    position: relative;
+    z-index: 3;
+    line-height: 18px;
+    margin: 0 auto;
+}
+.services .paintwork{
+    padding-bottom: 40px;
+}
+
+.ourWork{
+    font-size: 0;
+    text-align: center;
+}
+.ourWork h1{
+    font-family: Raleway-Regular;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.ourWork .line{
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    position: relative;
+    margin: 15px auto;
+}
+.ourWork p{
+    font-size: 16px;
+    font-family: Raleway-Regular;
+    width: 230px;
+    margin: 0 auto 30px auto;
+}
+.ourWork .projects li{
+    height: 112px;
+    width: 50%;
+    display: inline-block;
+    position: relative;
+}
+.ourWork .projects img{
+    width: 100%;
+    height:100%;
+}
+.ourWork .projects li:hover span{
+    width:100%;
+    height: 112px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top:0;
+    left:0;
+    display: block;
+}
+
+
+.aboutUs{
+    background-color: gray;
+    padding: 25px;
+    font-size: 0;
+}
+.aboutUs .body{
+    background-color: white;
+}
+.aboutUs .body h1{
+    font-family: Raleway-Regular;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+}
+.aboutUs .body .line{
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    position: relative;
+    margin: 15px auto;}
+.aboutUs .body p {
+    width: 90%;
+    font-family: Raleway-Regular;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    padding-bottom: 25px;
+    margin: 0 auto;
+}
+
+
+.backgroundCar{
+    text-align: center;
+    font-size: 0;
+}
+.backgroundCar img{
+    height: 166px;
+}
+
+
+.contacts{
+    background-color: white;
+    width: 90%;
+    padding: 0 5% 20px 5%;
+}
+
+.contacts h1{
+    font-family: Raleway-Regular;
+    font-size: 20px;
+    padding-top: 15px;
+    text-align: center;
+}
+.contacts .line{    
+    height: 3px;
+    width: 30px;
+    background-color: black;
+    position: relative;
+    margin: 15px auto;
+}
+.contacts p{
+    text-align: left;
+    font-family: Raleway-Regular;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.inputHolder {
+    border: solid 1px black;
+    position: relative;
+    margin-bottom: 12px;
+}
+.inputHolder label {
+    position: absolute;
+    left: 2.5%;
+    top: 6px;
+    font-style: italic;
+    color: black;
+    font-size: 16px;
+
+}
+.inputHolder input, .inputHolder textarea {
+    border: none;
+    width: 95%;
+    padding: 6px 2.5%;
+    font-style: italic;
+    resize: none;
+    color: black;
+    outline: none;
+}
+.contactUs .button{
+    text-align: right;
+}
+.contactUs .button button{
+    background-color: #FCD307;
+    padding: 8px;
+    font-weight:900;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (min-width: 600px){
+    .mainHeader .mobileMenuIcon{
+        display: none;
+    }
+    .mobileMenu{
+        display: none;
+    }
+    .mainHeader .socialMediaIcons{
+        display: none
+    }
+    .mainHeader .menu{
+        display: block;
+        text-align: center;
+    }  
+    .mainHeader .menu li{
+        display: inline-block;
+        font-family: Raleway-Regular;
+        font-size: 16px;
+        color: white;
+        margin:10px;
+        
+    }
+    .mainHeader .menu a{
+        display: block;
+        padding: 3px;
+        border: solid 1px #2F2E2E;
+    }
+    .mainHeader .menu a:hover{
+        border:solid 1px white;
+        border-radius: 5px;
+    }
+    
+    
+    .slider{
+        padding: 55px 5% 0 5%;
+        font-size: 0;
+    }
+    .slider .socialMediaIcons{
+        display: inline-block;
+        bottom: 0;
+        margin-top: 100px;
+        z-index: 2;
+        position: relative;
+    }
+    .slider .socialMediaIcons li{
+        display: inline-block;
+        margin: 0 5px;
+    }
+    .slider .socialMediaIcons img{
+        height: 40px;
+        width: 40px;
+        border: none;     
+    }
+    .slider .socialMediaIcons a{
+        display: block;
+        border-radius: 100%;
+        padding: 0;
+    }
+    
+    
+    .services{
+        vertical-align: top;
+    }
+    .services .repairs{
+        display: inline-block;
+        margin-right: 20px;
+        vertical-align: top;
+    }
+    .services .upholstery{
+        display: inline-block;
+        position: relative;
+    }
+
+    
+    .ourWork .projects li{
+        height: 180px;
+    }
+    .ourWork .projects li:hover span{
+        height:180px;
+    }
+    
+    .backgroundCar img{
+        height: 245.3px;;
+    }
+    .contacts p{
+        text-align: center
+    }
+}
+
+
+
+@media screen and (min-width: 900px){
+    .slider{
+        padding: 20px 5% 0 5%;
+        font-size: 0;
+    }
+    .slider .socialMediaIcons{
+        margin-top: 280px;
+    }
+    
+    .services .repairs{
+        margin-right: 10px
+    }
+    .services .upholstery{
+        margin-right: 10px;
+    }
+    .services .paintwork{
+        display: inline-block;
+    }
+    
+    .ourWork{
+        width: 90%;
+        padding: 0 5% 50px 5%;
+    }
+    
+    .backgroundCar img{
+        height: 368px;
+    }
+    
+    .aboutUs {
+        padding: 25px 15%;}
+}
+
+
+
+@media screen and (min-width: 1300px){
+    .mainHeader .menu li{
+        margin: 0 25px;
+        font-size: 22px;
+    }
+    .mainHeader .menu a{
+        padding: 6px;
+    }
+    
+    .slider{
+        padding: 90px 5% 0 5%;
+        font-size: 0;
+    }
+    .slider .socialMediaIcons{
+        margin-top: 600px;
+    }
+    .slider .socialMediaIcons img{
+        width: 50px;
+        height: 50px;
+        margin: 0 15px;
+    }
+    
+    .services .repairs{margin-right: 50px;}
+    .services .upholstery{margin-right: 50px;}
+    
+    .ourWork .projects li{
+        height:350px;}
+    .ourWork .projects li:hover span{
+        height: 350px;}
+    
+    .aboutUs {
+        padding: 25px 15%;}
+    
+    .contacts form{
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+}
